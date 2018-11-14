@@ -1,0 +1,119 @@
+.main
+{
+    color: brown;
+    margin-left:800px;
+    padding: 20px;
+ font-size: 2.0em;
+}
+.register
+{
+    color: white;
+    margin-left:500px;
+    padding: 20px;
+}
+
+
+td
+{
+padding-left:120px;
+height:60%;
+
+}
+.NAME
+{
+  width: 500px;
+  margin: 20px auto;
+  padding: 10px;
+  border: 7px solid #72B372;
+  border-radius: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #444;
+  background-color: #F0F0F0;
+  box-shadow: 0 0 20px 0 #000000;
+  font-weight:bold;
+
+
+}
+.EMAIL
+{
+width: 500px;
+  margin: 20px auto;
+  padding: 10px;
+  border: 7px solid #72B372;
+  border-radius: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #444;
+  background-color: #F0F0F0;
+  box-shadow: 0 0 20px 0 #000000;
+font-weight:bold;
+}
+.PASSWORD
+{
+width: 500px;
+  margin: 20px auto;
+  padding: 10px;
+  border: 7px solid #72B372;
+  border-radius: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #444;
+  background-color: #F0F0F0;
+  box-shadow: 0 0 20px 0 #000000;
+font-weight:bold;
+}
+.USERNAME
+{
+width: 500px;
+  margin: 20px auto;
+  padding: 10px;
+  border: 7px solid #72B372;
+  border-radius: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #444;
+  background-color: #F0F0F0;
+  box-shadow: 0 0 20px 0 #000000;
+font-weight:bold;
+}
+.CONFORM PASSWORD
+{
+width: 500px;
+  margin: 20px auto;
+  padding: 10px;
+  border: 7px solid #72B372;
+  border-radius: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #444;
+  background-color: #F0F0F0;
+  box-shadow: 0 0 20px 0 #000000;
+font-weight:bold;
+}
+.PHONENUMBER
+{
+width: 500px;
+  margin: 20px auto;
+  padding: 10px;
+  border: 7px solid #72B372;
+  border-radius: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #444;
+  background-color: #F0F0F0;
+  box-shadow: 0 0 20px 0 #000000;
+font-weight:bold;
+}
+button
+{
+background-color:#00C760;
+margin-left:auto;
+margin-right:auto;
+display:block;
+margin-top:5%;
+margin-bottom:0%
+width:1000px; 
+height: 5em;
+font-weight:bold;
+}
+H3
+{
+
+margin-left:50px;
+}
+

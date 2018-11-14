@@ -1,0 +1,13 @@
+.image img {
+    width: 100%;
+    height: auto;
+}
+.text
+{
+  font-size:30px;
+   position:absolute;
+   top:10%;
+   left:20%;
+   font-weight:bold;
+       
+}
