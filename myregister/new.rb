@@ -12,7 +12,7 @@ end
 @email=params[:EMAIL]
 @pwd=params[:PASSWORD]
 @conf=params[:CONFIRM]
-@phone=params[:PHONE ]
+@phoneno=params[:PHONENUMBER ]
 
 
 

@@ -1,0 +1,120 @@
+<html>
+<head>
+<style>
+	h1
+	{
+	font-size:50px;
+	}
+	table
+	{
+		margin-top:100px;
+		margin-left:100px;
+		width: 85%;
+		font-size:11px;
+		color:#333333;
+		border-width:3px;
+		border-color: #FFFFFF;
+		border-collapse: collapse;
+
+	}
+	td, th {
+		font-size:25px;
+		text-align: center;
+	   	border-width: 5px;
+		padding:5px;
+		border-style: solid;
+		border-color: #FFFFFF;
+	}
+	sty
+	{
+
+
+	}
+	.button
+	{
+
+	    background-color:black;
+	    color: white;
+	    font-size: 30px;
+	    padding: 10px ;
+	    border: none;
+	    cursor: pointer;
+	    margin-top:10px;
+	    margin-left:100px;
+	    border-radius:10px;
+	    width:30%;
+	    
+	}
+	H2
+	{
+	font-size:40px;
+	color:#000000;
+	}
+	tr:nth-child(1)
+		{
+			background-color:#20999B;
+			color:white;
+		}
+	.topnav {
+	  overflow: hidden;
+	  background-color: #333;
+	}
+
+	.topnav a {
+	  float: left;
+	  color: #f2f2f2;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 17px;
+	}
+
+	.topnav a:hover {
+	  background-color: #ddd;
+	  color: black;
+	}
+
+	.topnav a.active {
+	  background-color: #4CAF50;
+	  color: white;
+	}
+</style>
+</head>
+<body style="background-color:grey;">
+	<form action="#" method="post">
+		<div class="topnav">
+		  <a class="active" href="/wish">Home</a>
+	       	  <a href="/addwish">Addwish</a>
+		  <a href="#">Browsewish</a>
+		  <li style="float:right"><a class="act" href="#log">Logout</a></li>
+		</div>
+
+
+	</form>
+	<h1 style="text-align:center"> Show wish</h1>
+	<%require_relative "../addprocess.rb"%>
+	<table>
+	  <tr>
+
+	     <th><h2>WISHNAME</h2></th>
+	    <th><h2>CATEGORY</h2></th>
+	    <th><h2>DESCRIPTION</h2></th>
+	    <th><h2>HELP BAR</th></h2>
+	 
+	 
+	 </tr>
+	<%Wish= Wish.all%>
+	<%Wish.each do |w|%>
+	<tr>
+		 <td><%= w.Wishname %></td>
+		 <td><%= w.category %></td>
+		 <td><%= w.Description %></td>
+	  <th> <input type ="button" class= "button" value ="Help" onclick="location.href='/help';"></th>
+	</tr>
+	<!--%=w.Wishname%-->
+	<% end %>
+	</table>
+
+</body>
+<html/>
+
